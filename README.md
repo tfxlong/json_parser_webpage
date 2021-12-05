@@ -1,7 +1,7 @@
 ## Task 1 - JSON parsing
 ---
 
-This tasks runs pulls the data from the text field and runs a JSON.parse function, which will only work if the file is in an appropriate JSON string format. As such, we can use a 'try' and 'catch' method, where the JavaScript will attempt to JSON.parse and register success (if in the correct format) or throw and error (if not in the correct format).
+This tasks pulls the data from the text field and runs a JSON.parse function, which will only work if the file is in an appropriate JSON string format. As such, we can use a 'try' and 'catch' method, where the JavaScript will attempt to JSON.parse and register success (if in the correct format) or throw an error (if not in the correct format).
 
 While not a specific request for this assignment, it is noted that the error can be caught and then outputted, to give the user a clue where the error is. The example provided in the assignment description also provided an error message, so we can duplicate this. Furthermore, we can add our own text to this, such as "Check Error: " and then concatenate and display only the .message portion of the error. 
 
