@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Check if JSON string ?</title>   
+  </head>
+
+  <body>
+    
+    <header>
+      <h1>Timothy Long</h1>     
+      <h2>S/N 7382923</h2>
+    </header>
+    
+    <main>
+
+      <p id="para1">This page is designed to recognise JSON strings or components thereof</p>
+      <h2>Excercise 4 - Task 1</h2>
+
+      <section id="main_container">
+
+        <p class="para2">Enter a full JSON string, or check a valid component of a JSON string.
+          <br> Then, click the button below... if you can catch it !!
+        </p>
+        <p class="para2" id="advice_para">Please do not include any outside quotation marks.
+        For example <br><span id="no_italic">{"name":"John", "age":30, "car":null}</span> &nbsp;&nbsp;&nbsp;is suitable
+        </p>
+          
+        <textarea id="string_input">Please enter details into this section and then press the button to check if input is a JSON string!
+        </textarea>
+        
+        <input type="text" id="result_output">
+        <P id="error_output"></P>
+
+      </section>         
+    </main>  
+    
+    <footer>
+      <button onclick="check_if_JSON()">
+        Check
+        <br>
+        if JSON
+        <br>
+        String
+        <br>
+        ??
+      </button>
+    </footer>
+  </body>
+</html>
